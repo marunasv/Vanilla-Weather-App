@@ -1,5 +1,8 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: #a39292;
+  color: #acb7d1;
+  font-weight: 400;
 }
 
 h1 {
@@ -62,4 +65,21 @@ a {
 .weather-temperature .active {
   color: black;
   cursor: default;
+}
+
+#search-input,
+#search-button {
+  font-size: 1rem;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+
+#search-button {
+  padding: 5px 15px;
+  background: #6d5dfc;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0.2rem 0.2rem 1rem #8abdff,
+    inset -0.2rem -0.2rem 1rem #5b0eeb, 0.3rem 0.3rem 0.6rem #c8d0e7,
+    -0.2rem -0.2rem 0.5rem #fff;
 }
