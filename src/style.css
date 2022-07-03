@@ -25,6 +25,10 @@ li {
   line-height: 19px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 50px auto;
@@ -55,6 +59,7 @@ li {
   top: -32px;
 }
 
-a {
-  text-decoration: none;
+.weather-temperature .active {
+  color: black;
+  cursor: default;
 }
