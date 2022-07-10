@@ -67,6 +67,25 @@ a {
   cursor: default;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 #search-input,
 #search-button {
   font-size: 1rem;
